@@ -1,7 +1,9 @@
 {
     "name": "squirephp/currencies",
     "description": "A library containing Squire's Currency model.",
-    "keywords": ["squire"],
+    "keywords": [
+        "squire"
+    ],
     "license": "MIT",
     "homepage": "https://github.com/squirephp",
     "support": {
@@ -15,9 +17,9 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^8.0",
         "akaunting/laravel-money": "^1.2",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^8.0",
         "squirephp/model": "self.version",
         "squirephp/rule": "self.version"
     },
